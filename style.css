@@ -1,0 +1,227 @@
+html {
+  scroll-behavior: smooth;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+/* Nav Styles */
+nav {
+  color: black;
+  display: block;
+  text-align: center;
+  padding-top: 1.8em;
+  padding-bottom: 1.8em;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 0 1.4em;
+  border-right: 2px solid lavender;
+}
+
+nav ul li:first-child {
+  padding-left: 1.2em;
+  border-left: 1px solid whitesmoke;
+}
+nav li a:hover{
+  color: darkgoldenrod;
+}
+
+
+/* Mobilee module */
+@media only screen and (max-width: 500px) {
+  nav ul li {
+    display: block;
+    padding-bottom: 0.6em;
+    padding-top: 0.6em;
+    border-bottom: 1px solid whitesmoke;
+    margin: 0;
+  }
+}
+
+/* Header --- */
+.Header {
+  background: url(../images/header.jpg) no-repeat center;
+  background-size: cover;
+  text-align: center;
+}
+.Header-opacity {
+  opacity: 1;
+}
+
+.Header-info {
+  padding-top: 11em;
+  padding-bottom: 9em;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  color:lavender;
+}
+
+.Header-info h1 {
+  font-size: 5.5em;
+  text-transform: uppercase;
+  margin-bottom: 0.5em;
+}
+
+
+/* Tablets  modulee*/
+@media only screen and (max-width: 900px) {
+  .Header {
+    background: url(../images/header3.jpg) no-repeat center;
+  }
+  .Header-info {
+    padding-top: 6em;
+    width: 80%;
+  }
+  .Header-info h1 {
+    font-size: 5em;
+  }
+}
+
+/* Mobileee module */
+@media only screen and (max-width: 600px) {
+  .Header {
+    background: url(../images/header2.jpg) no-repeat center;
+  }
+  .Header-info {
+    padding-top: 6em;
+    width: 100%;
+  }
+  .Header-info h1 {
+    font-size: 3.5em;
+  }
+}
+/*  About  --*/
+.About {
+  padding-top: 5em;
+  text-align: center;
+}
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+.About-title {
+  padding-bottom: 1em;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-size: 2.5rem;
+}
+.About-item {
+  width: 22%;
+  float: left;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  margin-bottom: 2em;
+}
+.About-item-img {
+  background-color: black;
+}
+.About-item-img img {
+  width: 100%;
+  max-height: 100%;
+  height: 10em;
+  vertical-align: middle;
+  opacity: 0.5;
+  transition: 0.5s;
+}
+.About-item-img img:hover {
+  opacity: 1;
+}
+
+.About-item-img .effect:hover {
+  opacity: 0.3;
+}
+
+.About-item-content {
+  margin-top: 0.5em;
+  text-align: justify;
+  letter-spacing: 1px;
+}
+
+.About-item-content h3 {
+  font-size: 1.1em;
+  font-weight: 600;
+  color: black;
+  transition: 0.5s;
+}
+
+.About-item-content p {
+  color:gray;
+  font-size: 0.9em;
+  line-height: 1.1em;
+  margin-top: 0.3em;
+}
+
+/* Tablet module */
+@media only screen and (max-width: 800px) {
+  .About-item {
+    width: 47%;
+  }
+  .About-item-img {
+    width: 33%;
+    float: left;
+    margin-right: 0.5em;
+  }
+  .About-item-content {
+    width: 64%;
+    float: left;
+  }
+}
+
+/* Mobile module */
+@media only screen and (max-width: 500px) {
+  .About-item {
+    width: 100%;
+    padding: 0;
+  }
+  .About-item-img {
+    width: 40%;
+    float: left;
+    margin-right: 0.5em;
+  }
+  .About-item-content {
+    width: 58%;
+    float: left;
+  }
+}
+
+/* Social media  */
+.Social {
+  background-color: lavender;
+  margin-top: 3em;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  text-align: center;
+}
+
+.Social a {
+  color:black;
+  font-size: 2em;
+  margin: 0 1em;
+  transition: 0.5s;
+}
+
+.Social a:hover {
+  color:blueviolet;
+}
+
+/* Footer */
+.Footer {
+  background-color: black;
+  text-align: center;
+  padding: 1.5em 0;
+}
+.Footer-copyright {
+  color:whitesmoke;
+  line-height: 1.4em;
+  font-size: 1em;
+}
+
+
+
+
